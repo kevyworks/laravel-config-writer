@@ -1,0 +1,34 @@
+{
+    "name": "kevyworks/laravel-config-writer",
+    "description": "Laravel provider to be able to rewrite configuration",
+    "keywords": [
+        "laravel",
+        "config",
+        "write",
+        "provider"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kevyworks",
+            "email": "kevyworks@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "illuminate/config": "~5.0."
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kevyworks\\Laravel\\ConfigWriter\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit --bootstrap=./vendor/autoload.php --colors=\"always\" UnitTest tests/*"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
