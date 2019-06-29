@@ -8,6 +8,12 @@ You can rewrite array values inside a basic configuration file that returns a si
 
 The following value types are supported for writing: strings, integers, booleans and single-dimension arrays.
 
+## Important Note
+
+This library was originally by `daftspunk/laravel-config-writer` all efforts and credits goes to the author and to 
+the contributors to the original repository. This repo is mostly used internally and might not changed so for 
+updated and latest features please follow the original repository.
+
 ## Support
 
 This provider is designed to be used in Laravel from `5.4` version.
